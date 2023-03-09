@@ -22,6 +22,6 @@ public class MainController {
     }
     @GetMapping("/test?{param}")
     public String dd(@PathVariable("param") String xx){
-        return "你发的是: " + xx;
+        return "你发的是:  " + xx;
     }
 }
